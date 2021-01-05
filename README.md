@@ -58,21 +58,28 @@ public function setToppingsAttribute($value)
 ```
 
 
-## How to use
-###Step 1: Create folder for the project and open your terminal
-###Step 2: Clone project in the created folder
+# How to use
+**Step 1: Create folder for the project and open your terminal**
+
+**Step 2: Clone project in the created folder**
 ```git clone https://github.com/lucienversendaal/sadpizza.git```
-###Step 3: Go to the folder where the file is installed.
+
+**Step 3: Go to the folder where the file is installed**
 ```cd project-name```
-###Step 4: Now install the composer
+
+**Step 4: Now install the composer**
 ```composer install```
-###Step 5: Copy the .env.example file and rename it into the .env file (For this you can run the following command)
+
+**Step 5: Copy the .env.example file and rename it into the .env file (For this you can run the following command)**
 ```copy .env.example .env```
-###Step 6: Run the following command to generate a new key
+
+**Step 6: Run the following command to generate a new key**
 ```composer install```
-###Step 7: Run the following command to generate a new key
+
+**Step 7: Run the following command to generate a new key**
 ```php artisan key:generate```
-###Final-step
+
+**Final-step**
 Now setup database and put in all details in your .env file
 ```
 DB_DATABASE=database_name
